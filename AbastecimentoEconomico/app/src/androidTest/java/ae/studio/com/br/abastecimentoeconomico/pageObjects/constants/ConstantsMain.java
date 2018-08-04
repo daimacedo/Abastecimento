@@ -12,4 +12,7 @@ public class ConstantsMain {
     public static final String TXT_PRECO_GASOLINA = "Preço da Gasolina";
     public static final String TXT_BTN_VERIFICAR = "VERIFICAR";
     public static final String TXT_TITLE_LOGIN = "Abastecimento Economico";
+    public static final String MSG_GASOLINA_MELHOR= "É melhor utilizar a gasolina ... ";
+    public static final String MSG_ALCOOL_MELHOR= "É melhor utilizar o alcool ... ";
+
 }

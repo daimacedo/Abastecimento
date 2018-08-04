@@ -8,6 +8,7 @@ import android.support.test.rule.ActivityTestRule;
 import ae.studio.com.br.abastecimentoeconomico.MainActivity;
 import ae.studio.com.br.abastecimentoeconomico.common.ScreenRobot;
 import ae.studio.com.br.abastecimentoeconomico.pageObjects.robot.MainRobot;
+import static ae.studio.com.br.abastecimentoeconomico.pageObjects.constants.ConstantsMain.*;
 
 /**
  * Created by daiane.macedo on 04/08/18.
@@ -36,7 +37,7 @@ public class testeMainTest extends ScreenRobot {
                 .typeValorAlcool("4.90")
                 .typeValorGasolina("4.80")
                 .clickOnBtnVerificar()
-                .checkMsgResult("É melhor utilizar a gasolina ... ");
+                .checkMsgResult(MSG_GASOLINA_MELHOR);
     }
 
     @Test
@@ -45,7 +46,7 @@ public class testeMainTest extends ScreenRobot {
                 .typeValorAlcool("2.60")
                 .typeValorGasolina("4.80")
                 .clickOnBtnVerificar()
-                .checkMsgResult("É melhor utilizar o alcool ... ");
+                .checkMsgResult(MSG_ALCOOL_MELHOR);
     }
 
     @Test
@@ -54,7 +55,7 @@ public class testeMainTest extends ScreenRobot {
                 .typeValorAlcool("4.80")
                 .typeValorGasolina("4.80")
                 .clickOnBtnVerificar()
-                .checkMsgResult("É melhor utilizar a gasolina ... ");
+                .checkMsgResult(MSG_GASOLINA_MELHOR);
     }
 
 

@@ -58,7 +58,7 @@ public class MainRobot extends ScreenRobot<MainRobot> {
     }
 
     public MainRobot checkMsgResult(String msg){
-        checkViewHasText(CAMPO_RESULTADO,msg);
+        checkViewHasText(CAMPO_RESULTADO, msg);
         return  this;
     }
 
