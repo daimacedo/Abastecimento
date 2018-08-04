@@ -35,7 +35,6 @@ public class testeMainTest extends ScreenRobot {
         new MainRobot()
                 .typeValorAlcool("4.90")
                 .typeValorGasolina("4.80")
-                .closeKeyboard()
                 .clickOnBtnVerificar()
                 .checkMsgResult("É melhor utilizar a gasolina ... ");
     }
@@ -45,7 +44,6 @@ public class testeMainTest extends ScreenRobot {
         new MainRobot()
                 .typeValorAlcool("2.60")
                 .typeValorGasolina("4.80")
-                .closeKeyboard()
                 .clickOnBtnVerificar()
                 .checkMsgResult("É melhor utilizar o alcool ... ");
     }
@@ -55,7 +53,6 @@ public class testeMainTest extends ScreenRobot {
         new MainRobot()
                 .typeValorAlcool("4.80")
                 .typeValorGasolina("4.80")
-                .closeKeyboard()
                 .clickOnBtnVerificar()
                 .checkMsgResult("É melhor utilizar a gasolina ... ");
     }

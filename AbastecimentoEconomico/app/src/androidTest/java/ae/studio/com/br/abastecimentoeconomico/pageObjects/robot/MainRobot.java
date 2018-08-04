@@ -42,11 +42,13 @@ public class MainRobot extends ScreenRobot<MainRobot> {
 
     public MainRobot typeValorAlcool(String valorAlcool){
         enterTextIntoView(CAMPO_ALCOOL,valorAlcool);
+        closeKeyboard();
         return this;
     }
 
     public MainRobot typeValorGasolina(String valorGasolina){
         enterTextIntoView(CAMPO_GASOLINA,valorGasolina);
+        closeKeyboard();
         return this;
     }
 
